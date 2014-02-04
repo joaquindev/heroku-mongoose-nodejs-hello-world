@@ -126,7 +126,11 @@ function createWebpage (req, res) {
       query.where('age').gt(64);
       query.exec(function(err, result) {
     if (!err) {
-      res.end(html4 + JSON.stringify(result, undefined, 2) + html5 + result.length + html6);
+var today = new Date();
+var h = today.getHours();
+var m = today.getMinutes();
+var s = today.getSeconds();
+      res.end("Server time: " + h + ":" + m + ":" + s + " " +  html4 + JSON.stringify(result, undefined, 2) + html5 + result.length + html6);
     } else {
       res.end('Error in second query. ' + err)
     }
