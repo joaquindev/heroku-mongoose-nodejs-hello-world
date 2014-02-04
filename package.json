@@ -1,0 +1,30 @@
+{
+  "name": "heroku-mongoose-nodejs-hello-world",
+  "version": "0.0.1",
+  "description": "This is a hello mongoose example from Heroku",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquindev/heroku-mongoose-nodejs-hello-world"
+  },
+  "keywords": [
+    "example",
+    "heroku",
+    "mongoose"
+  ],
+  "author": "joaquindev",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/joaquindev/heroku-mongoose-nodejs-hello-world/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
