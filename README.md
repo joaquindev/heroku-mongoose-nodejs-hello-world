@@ -1,7 +1,7 @@
 heroku-mongoose-nodejs-hello-world
 ==================================
 
-CLOSED!
+[FINISHED!](https://github.com/jglovier/gifs/blob/gh-pages/chuck-norris/chuck-norris.gif)
 
 ##Steps
 
