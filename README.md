@@ -5,9 +5,9 @@ heroku-mongoose-nodejs-hello-world
 
 ##Steps
 
-1) ```$mongod```
+1) Launch MongoDB deamon: ```$mongod```
 
-2) ```node web.js```
+2) Start the server: ```node web.js```
 
 This is a repository where I'm going to kepp the files of the simple Object Modeling in Node.js with Mongoose example available at: https://devcenter.heroku.com/articles/nodejs-mongoose
 
